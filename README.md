@@ -1,4 +1,4 @@
-# dsh-plan-usage
+# dsh-quota-meter
 
 给 DeepSeek Harness 加一个**供应商套餐用量面板**：在模型选择器右侧显示一枚小图标，悬停（或点击）展开当前套餐的窗口明细。
 
@@ -16,7 +16,7 @@
 ## 安装
 
 ```bash
-dsh plugin install dsh-plan-usage
+dsh plugin install dsh-quota-meter
 ```
 
 或在 Plugins 页安装后重启。
@@ -90,8 +90,8 @@ OpenCode 返回的是三个窗口的使用百分比：
 
 | 插件 | 说明 |
 | --- | --- |
-| [dsh-plugin-composer-predict](https://github.com/Dogtiti/dsh-plugin-composer-predict) | 预测下一条指令并显示为占位文字，`Tab` 采纳 |
-| [dsh-plugin-composer-history](https://github.com/Dogtiti/dsh-plugin-composer-history) | 输入框中按 `↑` / `↓` 回填历史消息 |
-| [dsh-plugin-subagent-bridge](https://github.com/Dogtiti/dsh-plugin-subagent-bridge) | 让 Codex 通过本机 MCP 把 DSH 当 subagent 用（spawn / wait / followup），反向也能把任务派给 Codex |
-| **dsh-plan-usage**（本仓库） | 在模型选择器旁显示供应商套餐额度余量（GLM Coding Plan / OpenCode Go），点开是明细浮层 |
-| [dsh-plugin-provider-icons](https://github.com/Dogtiti/dsh-plugin-provider-icons) | 在模型名旁显示供应商品牌 logo（24 个厂商，支持前缀匹配） |
+| [dsh-predict](https://github.com/Dogtiti/dsh-predict) | 预测下一条指令并显示为占位文字，`Tab` 采纳 |
+| [dsh-input-history](https://github.com/Dogtiti/dsh-input-history) | 输入框中按 `↑` / `↓` 回填历史消息 |
+| [dsh-subagent-bridge](https://github.com/Dogtiti/dsh-subagent-bridge) | 让 Codex 通过本机 MCP 把 DSH 当 subagent 用（spawn / wait / followup），反向也能把任务派给 Codex |
+| **dsh-quota-meter**（本仓库） | 在模型选择器旁显示供应商套餐额度余量（GLM Coding Plan / OpenCode Go），点开是明细浮层 |
+| [dsh-provider-icons](https://github.com/Dogtiti/dsh-provider-icons) | 在模型名旁显示供应商品牌 logo（24 个厂商，支持前缀匹配） |
