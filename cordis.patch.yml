@@ -1,6 +1,6 @@
 - insert:
     - id: usage-panel
-      name: 'dsh-plugin-usage-panel'
+      name: 'dsh-plan-usage'
       config:
         apiKeyEnv: ZAI_CODING_CN_API_KEY
         baseUrl: https://api.z.ai
