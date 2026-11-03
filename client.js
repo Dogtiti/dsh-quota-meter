@@ -8,7 +8,7 @@
  * one signal the harness renders for the selected model.
  */
 window.__ModuleLoader__.load({
-  id: 'dsh-plugin-usage-panel',
+  id: 'dsh-quota-meter',
   factory(require) {
     const React = require('react')
     const h = React.createElement
