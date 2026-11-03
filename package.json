@@ -1,5 +1,5 @@
 {
-  "name": "dsh-plan-usage",
+  "name": "dsh-quota-meter",
   "version": "0.3.0",
   "type": "module",
   "description": "A usage panel for provider plans: shows how much of each quota window is left (GLM Coding Plan and OpenCode Zen) as a compact chip next to the model selector, with a detail popover.",
@@ -15,10 +15,10 @@
   ],
   "author": "Dogtiti",
   "license": "MIT",
-  "homepage": "https://github.com/Dogtiti/dsh-plan-usage#readme",
+  "homepage": "https://github.com/Dogtiti/dsh-quota-meter#readme",
   "repository": {
     "type": "git",
-    "url": "https://github.com/Dogtiti/dsh-plan-usage"
+    "url": "https://github.com/Dogtiti/dsh-quota-meter"
   },
   "exports": {
     ".": "./index.js",
@@ -52,6 +52,6 @@
     }
   },
   "bugs": {
-    "url": "https://github.com/Dogtiti/dsh-plan-usage/issues"
+    "url": "https://github.com/Dogtiti/dsh-quota-meter/issues"
   }
 }
